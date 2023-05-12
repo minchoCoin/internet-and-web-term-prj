@@ -1,0 +1,57 @@
+/* main css file */
+
+
+
+
+*{padding:0;margin:0}
+li{list-style:none}
+a{text-decoration:none;font-size:14px}
+
+div.logo{
+    background-color : gray;
+    width : 100%;
+    height : 100px;
+}
+
+div.header{
+    padding-left:150px;
+    padding-right:150px;
+    background-color: #ebddcc;
+    height : 51px;
+}
+.menu {
+    width:100%;
+    overflow: hidden;
+    
+  }
+  
+  .menu > li {
+    width: 20%; 
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    background-color : #ebddcc;
+  }
+  
+  .menu a {
+    color: black;
+  }
+  
+  .submenu > li {
+    line-height: 50px;
+    background-color: #fff8dc;
+  }
+  
+  .submenu {
+    height: 0; 
+    overflow: hidden;
+  }
+
+  
+  .menu > li:hover .submenu {
+    height: 250px; 
+    transition-duration: 1s;
+  }
+  .menu >li:hover .underline{
+    border-bottom: solid 3px red;
+  }
