@@ -139,6 +139,8 @@ div.header{
   }
   /* default 끝 */
 
+
+  /* main css 시작 */
   .slide_box{
     z-index: 1;
     position: relative;
@@ -245,5 +247,5 @@ div.header{
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background: lightgray;
 }
-
+/* main css 끝*/
 
