@@ -5,4 +5,4 @@ var counter = 1;
     counter++;
     if(counter > 4)
         counter = 1;
-}, 5000)
+}, 3000)
