@@ -1,0 +1,23 @@
+{
+  "name": "internet-and-web-term-prj",
+  "version": "1.0.0",
+  "description": "internet-and-web-term-project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minchoCoin/internet-and-web-term-prj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minchoCoin/internet-and-web-term-prj/issues"
+  },
+  "homepage": "https://github.com/minchoCoin/internet-and-web-term-prj#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
