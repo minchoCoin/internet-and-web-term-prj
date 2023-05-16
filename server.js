@@ -3,7 +3,9 @@
 const express = require('express');
 const app = express();
 
-app.use(express.static(__dirname + '/public'))
+app.use(express.static(__dirname + '/public'));
+app.use('/fa', express.static(__dirname + '/node_modules/font-awesome/css'));
+app.use('/fonts', express.static(__dirname + '/node_modules/font-awesome/fonts'));
 
 app.listen('3000',()=>{
     console.log('listen on 3000');

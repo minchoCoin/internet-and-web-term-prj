@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/minchoCoin/internet-and-web-term-prj#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "font-awesome": "^4.7.0"
   }
 }

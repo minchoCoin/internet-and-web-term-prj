@@ -1,6 +1,9 @@
 /* main css file */
 
 /* default 시작 */
+
+@import url("/fa/font-awesome.css");
+
 @font-face {
   font-family: 'ulsanjunggu';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/ulsanjunggu.woff2') format('woff2');
@@ -119,10 +122,21 @@ div.header{
     margin-top:5px;
     color:white;
   }
-  footer img{
-    width:25px;
-    height:25px;
+  footer a{
+    width:30px;
+    height:30px;
     margin-top:10px;
+    margin-right:5px;
+    
+  }
+  .fa-facebook{
+    color:white;
+  }
+  .fa-twitter{
+    color:white;
+  }
+  .fa-instagram{
+    color:white;
   }
   /* default 끝 */
 
