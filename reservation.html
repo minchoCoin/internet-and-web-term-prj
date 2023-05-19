@@ -54,6 +54,40 @@
       <!--메뉴바 끝-->
     <main>
         <!--main content-->
+       
+          <div id="reservationForm">
+            <h1>예약하기</h1>
+            <form action="#" name="reservation_info" method="post">
+              <div class="inputCell">
+                <p>날짜</p>
+                <input type="date" name="date" required/>
+              </div>
+              <div class="inputCell">
+                <p>시간</p>
+                <input type="time" name="time" required/>
+              </div>
+              <div class="inputCell">
+                <p>성함</p>
+                <input type="text" name="name" required/>
+              </div>
+              <div class="inputCell">
+                <p>전화번호</p>
+                <input type="tel" name="phoneNumber" required/>
+              </div>
+              <div class="inputCell">
+                <p>총 몇명인가요?</p>
+                <input type="number" name="howMany" required/>
+              </div>
+              <br>
+              <div class="buttonCell">
+                <input type="submit">
+                
+              </div>
+              <p>확인 후, 입력하신 전화번호로 연락드릴 예정입니다.</p>
+            </form>
+          </div>
+          
+        
     </main>
 <!--footer부분-->
 <footer>

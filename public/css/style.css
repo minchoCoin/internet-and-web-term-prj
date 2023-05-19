@@ -4,6 +4,7 @@
 
 @import url("/fa/font-awesome.css");
 
+
 @font-face {
   font-family: 'ulsanjunggu';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/ulsanjunggu.woff2') format('woff2');
@@ -16,10 +17,17 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+ }
 
 
 
-*{padding:0;margin:0;}
+*{padding:0;margin:0;font-family: 'NanumBarunGothic';}
 li{list-style:none}
 a{text-decoration:none;font-size:14px; color:black;}
 html,body{
@@ -61,6 +69,9 @@ div.header{
     text-align: center;
     line-height: 50px;
     background-color: rgba( 235, 221, 204, 0.5 );
+  }
+  .menu a{
+    font-size:16px;
   }
   
 
@@ -236,16 +247,16 @@ div.header{
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1{
-    background: lightgray;
+    background: gray;
 }
 #radio2:checked ~ .navigation-auto .auto-btn2{
-    background: lightgray;
+    background: gray;
 }
 #radio3:checked ~ .navigation-auto .auto-btn3{
-    background: lightgray;
+    background: gray;
 }
 #radio4:checked ~ .navigation-auto .auto-btn4{
-    background: lightgray;
+    background: gray;
 }
 /* main css 끝*/
 
@@ -265,4 +276,30 @@ div.header{
 /* greeting css 끝 */
 
 /* reservation css 시작 */
+
+.inputCell{
+  margin-top:15px;
+}
+.inputCell >p{
+  font-weight:bold;
+}
+.inputCell >input{
+  margin-top:5px;
+  font-size: 20px;
+  width :300px;
+  height:50px;
+}
+#reservationForm{
+  text-align: center;
+  margin-top : 80px;
+  
+}
+.buttonCell>input{
+  font-size:20px;
+  margin:10px;
+  padding:10px;
+  width:300px;
+  
+  
+}
 /* reservation css 끝 */
