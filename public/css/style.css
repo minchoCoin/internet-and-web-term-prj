@@ -267,6 +267,11 @@ div.header{
 /* chef css 끝 */
 
 /* contact css 시작 */
+#contactForm{
+  text-align: center;
+  margin-top : 80px;
+  
+}
 /* contact css 끝 */
 
 /* direction css 시작 */
@@ -294,12 +299,15 @@ div.header{
   margin-top : 80px;
   
 }
-.buttonCell>input{
+.buttonCell>button{
   font-size:20px;
   margin:10px;
   padding:10px;
   width:300px;
   
   
+}
+textarea{
+  margin-top:5px;
 }
 /* reservation css 끝 */

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>예약</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
     <!--Write html code...-->
@@ -54,37 +54,36 @@
       <!--메뉴바 끝-->
     <main>
         <!--main content-->
-       
           <div id="reservationForm">
             <h1>예약하기</h1>
-            <form action="#" name="reservation_info" method="post">
+            
               <div class="inputCell">
                 <p>날짜</p>
-                <input type="date" name="date" required/>
+                <input type="date" name="date" id="date" />
               </div>
               <div class="inputCell">
                 <p>시간</p>
-                <input type="time" name="time" required/>
+                <input type="time" name="time" id="time" />
               </div>
               <div class="inputCell">
                 <p>성함</p>
-                <input type="text" name="name" required/>
+                <input type="text" name="name" id="name"/>
               </div>
               <div class="inputCell">
                 <p>전화번호</p>
-                <input type="tel" name="phoneNumber" required/>
+                <input type="tel" name="phoneNumber" id="phoneNumber"/>
               </div>
               <div class="inputCell">
                 <p>총 몇명인가요?</p>
-                <input type="number" name="howMany" required/>
+                <input type="number" name="howMany" id="howMany"/>
               </div>
               <br>
               <div class="buttonCell">
-                <input type="submit">
+                <button type="button" id="reservationBtn">예약하기</button>
                 
               </div>
               <p>확인 후, 입력하신 전화번호로 연락드릴 예정입니다.</p>
-            </form>
+            
           </div>
           
         
