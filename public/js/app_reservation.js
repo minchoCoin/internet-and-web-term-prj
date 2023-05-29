@@ -38,7 +38,7 @@ reservationBtn.onclick = function(){
         contentType: "application/json",
         data: JSON.stringify(requestData),
         success: function(resultData) {
-            alert("예약요청에 성공했습니다!" + JSON.stringify(requestData))
+            alert(`예약요청에 성공했습니다! 빠른 시일내로 연락드리겠습니다.${JSON.stringify(requestData)}`)
         },
         error: function(jqXHR, textStatus, errorThrown) {
 

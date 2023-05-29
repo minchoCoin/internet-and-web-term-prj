@@ -18,7 +18,6 @@ function contactInfo(name,phoneNumber,comment){
 }
 
 function DummyDB(){
-    var DummyDB = {};
     var storage = [];
     var cnt = 0;
 

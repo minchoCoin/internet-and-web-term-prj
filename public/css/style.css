@@ -148,6 +148,9 @@ div.header{
   .fa-instagram{
     color:white;
   }
+  .phone{
+    color:white;
+  }
   /* default 끝 */
 
 
@@ -264,6 +267,13 @@ div.header{
 /* beverage css 끝 */
 
 /* chef css 시작 */
+#chef{
+  text-align:center;
+  margin-top:80px;
+}
+#chef p{
+  margin-left:30px;
+}
 /* chef css 끝 */
 
 /* contact css 시작 */
@@ -278,6 +288,19 @@ div.header{
 /* direction css 끝 */
 
 /* greeting css 시작 */
+#greeting{
+  text-align: center;
+  margin-top:80px;
+}
+#greeting_title{
+  margin-bottom : 10px;
+  font-size:40px;
+}
+#greeting_comment{
+  margin-top: 20px;
+  margin-bottom:20px;
+  color:gray;
+}
 /* greeting css 끝 */
 
 /* reservation css 시작 */

@@ -22,7 +22,7 @@ contactBtn.onclick=function(){
         contentType: "application/json",
         data: JSON.stringify(requestData),
         success: function(resultData) {
-            alert("정상적으로 처리되었습니다. 빠른시일 내로 연락드리겠습니다." + JSON.stringify(requestData))
+            alert(`정상적으로 처리되었습니다. 빠른시일 내로 연락드리겠습니다.\n${JSON.stringify(requestData)}`)
         },
         error: function(jqXHR, textStatus, errorThrown) {
 
