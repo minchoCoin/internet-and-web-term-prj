@@ -264,6 +264,13 @@ div.header{
 /* main css 끝*/
 
 /* beverage css 시작 */
+#beverage{
+  margin-top:80px;
+  text-align: center;
+}
+#beverage td{
+  padding:5px;
+}
 /* beverage css 끝 */
 
 /* chef css 시작 */
@@ -284,6 +291,17 @@ div.header{
 }
 /* contact css 끝 */
 
+
+/* dish css 시작*/
+#dish{
+  margin-top:80px;
+  text-align: center;
+}
+#dish td{
+  padding:5px;
+  font-size: 30px;
+}
+/* dish css 끝*/
 /* direction css 시작 */
 /* direction css 끝 */
 
