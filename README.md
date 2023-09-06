@@ -13,9 +13,9 @@ term project of internet and web lecture
 - font-awesome (installing via npm)
 
 ### 실행방법
-'''
+```
 node server.js
-'''
+```
 
 ### 저작권없는 이미지 사이트 모음
 - https://pixabay.com/ko/
